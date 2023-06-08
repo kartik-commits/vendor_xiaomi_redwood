@@ -22,9 +22,23 @@ ThirdpartyVideo
     us.zoom.videomeetings
     com.viber.voip
     jp.naver.line.android
-    com.google.android.apps.messaging
     com.smile.gifmaker
     air.tv.douyu.android
+    com.tencent.mm
+    com.zhihu.android
+    com.tencent.mobileqq
+    com.qiyi.video
+    com.xhey.xcamera
+    com.baidu.homework
+    cmb.pb
+    com.taobao.taobao
+    com.alibaba.android.rimet
+    com.chinamworld.main
+    com.cubic.autohome
+    com.shizhuang.duapp
+    com.ximalaya.ting.android
+    com.cmbchina.ccd.pluto.cmbActivity
+    org.codeaurora.ims
 }
 
 whatsappVideo
