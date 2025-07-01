@@ -475,6 +475,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.sr \
     com.xiaomi.plugin.supernight \
+    com.fingerprints.extension@3.0 \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
