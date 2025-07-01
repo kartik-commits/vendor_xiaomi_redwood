@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/redwood/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
