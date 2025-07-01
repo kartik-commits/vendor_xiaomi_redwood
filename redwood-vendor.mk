@@ -592,6 +592,7 @@ PRODUCT_PACKAGES += \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
     libmm-color-convertor \
+    libmmcamera_faceproc \
     libmpbase \
     libnanopb \
     libofflinedump \
