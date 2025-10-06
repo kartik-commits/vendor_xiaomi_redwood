@@ -358,8 +358,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
-    audio.primary.lahaina \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -370,14 +368,9 @@ PRODUCT_PACKAGES += \
     libaudiocloudctrl \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libqtigef \
     libresampler \
-    libsndmonitor \
-    libssrec \
     libvideoNS \
     com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide \
     com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom \
@@ -511,7 +504,6 @@ PRODUCT_PACKAGES += \
     lib3rdpartcontext \
     libAF \
     libI420colorconvert \
-    libQnnHtpStub \
     libSNPE \
     libXMFaceFocus \
     libadreno_app_profiles \
@@ -543,9 +535,6 @@ PRODUCT_PACKAGES += \
     libcamera_scene \
     libcamerapostproc \
     libcamlog \
-    libcapiv2svacnn \
-    libcapiv2svarnn \
-    libcapiv2vop \
     libceres \
     libchilog \
     libcom.qti.chinodeutils \
