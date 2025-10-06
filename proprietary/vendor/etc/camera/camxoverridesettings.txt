@@ -165,3 +165,8 @@ sessionMaxFlushWaitTime=2000
 
 pluginBurstReqCnt=0x2
 pluginBurstReqCntForHeif=0x3
+
+#NCS
+enableNCSFlicker=FALSE
+enableNCSFlickerColor=FALSE
+enableNCSBackLight=FALSE
