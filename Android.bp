@@ -5,6 +5,9 @@
 soong_namespace {
 	imports: [
 		"vendor/xiaomi/sm7325-common",
+        	"hardware/qcom-caf/sm8350",
+        	"hardware/xiaomi",
+        	"vendor/qcom/opensource/display",
 	],
 }
 
