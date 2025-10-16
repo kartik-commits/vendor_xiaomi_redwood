@@ -98,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/redwood/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/redwood/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
-    vendor/xiaomi/redwood/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
@@ -511,7 +510,6 @@ PRODUCT_PACKAGES += \
     lib3rdpartcontext \
     libAF \
     libI420colorconvert \
-    libQnnHtpAltPrepStub \
     libQnnHtpStub \
     libSNPE \
     libXMFaceFocus \
@@ -597,12 +595,6 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
-    libscveCommon \
-    libscveCommon_stub \
-    libscveObjectSegmentation \
-    libscveObjectSegmentation_stub \
-    libscveObjectTracker \
-    libscveObjectTracker_stub \
     libsensor_cal_v2 \
     libsensorcal \
     libsensorslog \
@@ -633,9 +625,6 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch.detect \
-    unnhal-acc-common \
-    unnhal-acc-gpu \
-    unnhal-acc-htp \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
@@ -643,7 +632,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     bm2n06 \
     bm2n08 \
     bm2n13 \
@@ -691,10 +679,8 @@ PRODUCT_PACKAGES += \
     misound_res_spk \
     liba2dpoffload_odm \
     libssrec_odm \
-    android.hardware.neuralnetworks@1.3-service-qti.xml \
     batterysecret \
     hvdcp_opti \
-    android.hardware.neuralnetworks@1.3-service-qti \
     init.qcom.sensors \
     init.qti.chg_policy \
     sensors.qti \
