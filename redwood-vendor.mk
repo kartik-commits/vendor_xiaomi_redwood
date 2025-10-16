@@ -341,6 +341,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
+    lib3rdpartcontext \
+    libbitmlenginev2 \
+    libcamera_nn_stub \
     libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
@@ -362,6 +365,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
+    libofflinelog \
+    libopencv \
     audio.primary.lisa \
     libacdb-fts \
     libacdbloader \
@@ -507,7 +512,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.qti.chi.override \
     fingerprint.goodix.default \
-    lib3rdpartcontext \
     libAF \
     libI420colorconvert \
     libQnnHtpStub \
@@ -535,10 +539,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_raw \
     libbitmlengine \
-    libbitmlenginev2 \
     libc++_shared \
     libcamera_dirty \
-    libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
     libcamlog \
@@ -584,9 +586,7 @@ PRODUCT_PACKAGES += \
     libmpbase \
     libnanopb \
     libofflinedump \
-    libofflinelog \
     libomp \
-    libopencv \
     libopestriping \
     libos \
     libpreview_beautyeffect \
