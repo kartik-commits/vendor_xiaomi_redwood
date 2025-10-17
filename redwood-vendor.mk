@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmmcamera_bestats \
     libmmcamera_cac3 \
-    libmmcamera_faceproc \
     libmmcamera_faceproc2 \
     libmmcamera_lscv35 \
     libmmcamera_mfnr \
@@ -583,6 +582,7 @@ PRODUCT_PACKAGES += \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
     libmm-color-convertor \
+    libmmcamera_faceproc \
     libmpbase \
     libnanopb \
     libofflinedump \
